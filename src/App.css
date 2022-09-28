@@ -28,6 +28,100 @@
   color: #61dafb;
 }
 
+img {
+  height: 3em;
+}
+
+.label-element {
+  color: green;
+  width: 20%;
+}
+
+table,th,tr,td {
+  border: 1px solid;
+}
+
+.column-head{
+  font-weight: bold;
+}
+
+#light{
+  background-color: #f3ebf6;
+}
+
+#dark {
+  background-color: #46045e;
+}
+
+#light form {
+  background-color: #61dafb ;
+}
+
+#dark form {
+  background-color: beige;
+}
+
+#light table {
+  background-color: #61dafb ;
+}
+
+#dark .toggle-label {
+  color: white;
+}
+
+#dark table {
+  background-color: beige;
+}
+
+
+.toggle-btn {
+margin: 10px;
+}
+
+.toggle-label {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.table-Head {
+  font-weight: bold;
+}
+
+p {
+  color: red;
+  
+}
+
+table {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.input-element {
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  width: 50%;
+  height: 2em;
+}
+.user-form{
+  border: 5px solid;
+  margin: 50px 25% 50px 25%;
+  padding-bottom: 3%;
+  border-radius: 20px;
+}
+.btn-Save {
+  color: white;
+  padding: 10px;
+  margin: 10px 5px 0 35%;
+  background-color: #4996b7;
+}
+
+.input-area {
+  display: flex;
+  width: 80%;
+  margin: 2% 15% 0 15%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
